@@ -1,12 +1,7 @@
 # Torche Registration Class with Django
 
 ### Flowchart
-![django registration form drawio (1)](https://user-images.githubusercontent.com/69528812/196669243-319905d6-c186-4b0e-86e4-3903c9e6d3d8.png)
-
-
-### Flowchart class fee calculation
-![image](https://user-images.githubusercontent.com/69528812/196670617-24068708-16df-4078-a485-e323ac996902.png)
-
+![image](https://user-images.githubusercontent.com/69528812/196679538-8793bccf-c861-4c15-b991-19b4f1c2c9c1.png)
 
 ### Requirement Packages
 ````
@@ -77,3 +72,30 @@ webencodings==0.5.1
 xhtml2pdf==0.2.8
 ````
 
+### Directory Structure
+```text
+└── FormRegistration
+    ├── FormRegistration
+    │   ├── __init__.py
+    │   ├── asgi.py
+    │   ├── setting.py
+    │   ├── urls.py
+    │   ├── wsgi.py 
+    ├── FormRegistrationApp
+    │   ├── migrations
+    │   ├── templates
+    │   │    ├── FormRegistrationApp
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   ├── urls.py
+    │   ├── views.py
+    │   └── test.py
+    ├── client_secret.json
+    ├── db.sqlite3
+    ├── manage.py
+    ├── requirements.txt
+    └── README.md
+```
