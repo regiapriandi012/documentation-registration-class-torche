@@ -1,0 +1,1 @@
+# documentation-registration-class-torche
