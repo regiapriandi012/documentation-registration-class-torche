@@ -187,6 +187,33 @@ line 141, EMAIL_HOST_USER = "<user_email>"
 line 142, EMAIL_HOST_PASSWORD = "<password_application>"
 ```
 
+### Edit Configuration
+#### Invoice Number
+```
+# Change Number of Participants Code Configuration
+file FormregistrationApp/views.py, line 1683
+# Change Class Type Code Configuration
+file FormregistrationApp/views.py, line 1690
+# Change Class Name Code Configuration
+file FormregistrationApp/views.py, line 1700
+# Change Registration Number Configuration
+file FormregistrationApp/views.py, line 1773
+# Change Month Number, Kuartal Number, and Year Configuration
+file FormregistrationApp/views.py, line 1814
+```
+#### Class Fee Calculation
+```
+file FormregistrationApp/views.py, line 1947
+```
+#### Google Drive Account
+```
+file Formregistration/settings.py, line 140
+```
+#### Change Database
+```
+file Formregistration/settings.py, line 79
+```
+
 ### Install
 ```
 pip install requirements.txt
